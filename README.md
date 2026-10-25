@@ -39,7 +39,7 @@ AI/ML engineer and startup founder, currently doing a Master of Management Analy
 ## Education
 
 - **McGill University**: Master of Management Analytics (in progress)
-- **Bennett University**: BCA with AI specialization, CGPA 9.15/10, multiple Dean's List mentions
+- **Bennett University**: BCA with AI specialization, CGPA 9.28/10, multiple Dean's List mentions
 
 ## Stack
 
