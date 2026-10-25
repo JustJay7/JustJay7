@@ -7,6 +7,7 @@ AI/ML engineer and startup founder, currently doing a Master of Management Analy
 ## What I'm working on
 
 - **Ayebot** (co-founder): B2B SaaS platform that gives universities an AI assistant and a secure communication layer. Backend, Flutter Android app and Next.js admin dashboard are all in production, around 84,500 lines of code. Features include end-to-end encrypted 1:1 and group chat, meeting chat, and a RAG chatbot over faculty knowledge. Pilot signed with a private university in India.
+- **[SkillGuard](https://github.com/JustJay7/skillguard)**: lets you review what your personal AI agent learns before it learns it. SkillGuard intercepts skills a Hermes agent stages for itself, runs NVIDIA SkillEvaluator checks and generated attack probes against the real agent inside an isolated OpenShell sandbox, has Nemotron review the recorded behavior, and only installs the skill after explicit human approval, with rejection and version rollback built in. In testing, a repaired skill completed 8/8 receipt tasks with no attack-directed actions, while the original followed attacks in 4 of 6 cases. Built for the [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/) (Personal AI track), running on Nebius Token Factory with 1,000+ passing tests. [Demo](https://skillguard-evidence-demo.jaymalhotra.chatgpt.site)
 - **Risk-factor disclosure research**: testing whether year-over-year changes in the Item 1A "Risk Factors" section of SEC 10-K and 10-Q filings forecast future realized volatility and crash risk. I handle the NLP and ML side, my co-author handles the finance side.
 - **[Olist late-delivery prediction](https://github.com/JustJay7/olist-late-delivery)**: leading a 7-person team building a model that flags late e-commerce deliveries at the moment an order is approved.
 
@@ -46,8 +47,9 @@ AI/ML engineer and startup founder, currently doing a Master of Management Analy
 **Languages:** Python, SQL, C#, JavaScript
 **ML / AI:** scikit-learn, pandas, YOLOv8, U-Net, LSTMs, RAG, LLMs
 **App / Web:** Flask, Next.js, Flutter, ASP.NET
+**Agents / Security:** NVIDIA Nemotron, Hermes, SkillEvaluator, OpenShell, Harbor, Docker
 **Data:** SQL Server, MySQL, SQLite, Neo4j
-**Cloud:** Google Cloud, DigitalOcean
+**Cloud:** Google Cloud, Nebius Token Factory, DigitalOcean
 
 ---
 
