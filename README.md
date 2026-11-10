@@ -6,6 +6,7 @@ AI/ML engineer and startup founder, currently doing a Master of Management Analy
 
 ## What I'm working on
 
+- **[AsOf](https://github.com/JustJay7/asof)**: checks an AI assistant's answers against the policy version in force on the customer's date, built on IBM Db2. Bitemporal tables and native vector search find the right clause version in one query, a LangGraph pipeline corrects or holds wrong answers, and every decision goes into a hash-chained Db2 ledger. Released 0 of 121 wrong drafts on frozen test sets. Built solo for IBM Db2Hack 2026. [Demo video](https://www.youtube.com/watch?v=mntehVWQn8E)
 - **Ayebot** (co-founder): B2B SaaS platform that gives universities an AI assistant and a secure communication layer. Backend, Flutter Android app and Next.js admin dashboard are all in production, around 84,500 lines of code. Features include end-to-end encrypted 1:1 and group chat, meeting chat, and a RAG chatbot over faculty knowledge. Pilot signed with a private university in India.
 - **[SkillGuard](https://github.com/JustJay7/skillguard)**: lets you review what your personal AI agent learns before it learns it. SkillGuard intercepts skills a Hermes agent stages for itself, runs NVIDIA SkillEvaluator checks and generated attack probes against the real agent inside an isolated OpenShell sandbox, has Nemotron review the recorded behavior, and only installs the skill after explicit human approval, with rejection and version rollback built in. In testing, a repaired skill completed 8/8 receipt tasks with no attack-directed actions, while the original followed attacks in 4 of 6 cases. Built for the [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/) (Personal AI track), running on Nebius Token Factory with 1,000+ passing tests. [Demo](https://skillguard-evidence-demo.jaymalhotra.chatgpt.site)
 - **Risk-factor disclosure research**: testing whether year-over-year changes in the Item 1A "Risk Factors" section of SEC 10-K and 10-Q filings forecast future realized volatility and crash risk. I handle the NLP and ML side, my co-author handles the finance side.
@@ -13,27 +14,23 @@ AI/ML engineer and startup founder, currently doing a Master of Management Analy
 
 ## Recent wins
 
-- **Prize winner, BSRM x ALDO Retail Gen AI Hackathon (2026)**: built Perfect Pair with team Code Reapers and owned the full technical implementation.
+- **Prize winner, BSRM x ALDO Retail Gen AI Hackathon (2026)**: built [Perfect Pair](https://github.com/JustJay7/perfect-pair) with team Code Reapers, an agentic returns prototype for ALDO that resolves customer returns, supports store decisions and investigates return patterns, running on Claude through AWS Bedrock. I owned the full technical implementation.
 
 ---
 
-## Research
-
-- **OrganoidSim**: simulation framework for organoid-inspired intelligence, benchmarking spiking and liquid neural networks against deep learning baselines, with new metrics such as *Adaptation Lag* and *Regret*.
-- **All-in-One Sight (Vision Integrator)**: unified vision model that combines multiple architectures into one generalist framework for robust perception across tasks.
-
 ## Projects
 
-- **KidneyStone-X**: multi-modal medical AI pipeline using YOLOv8, U-Net and LLMs for detection, segmentation and triage of kidney stones.
+- **[KidneyStone-X](https://github.com/JustJay7/KidneyStone-X)**: end-to-end diagnostic pipeline for kidney stones on CT scans, with an EfficientNet classifier, YOLOv11 detection, U-Net segmentation and LLM-generated clinical reports.
+- **[LLM Evaluation Pipeline](https://github.com/JustJay7/llm-evaluation-pipeline)**: measures the reliability of chatbot responses with semantic relevance scoring, hallucination detection, completeness analysis, and per-stage latency and cost tracking.
 - **[Unibot](https://github.com/JustJay7/Unibot)**: campus chatbot built with Flask, SQLite and a custom LSTM intent classifier, with real-time extraction of professor specializations.
 - **[Inter-School Competition Web App](https://github.com/JustJay7/Inter-School-Competition-Web-Application)**: full-stack ASP.NET platform for running inter-school competitions, covering registration, scheduling, scoring and results.
 - **[MyVPN](https://github.com/JustJay7/MyVPN)**: self-built VPN on DigitalOcean using OpenVPN UDP and TCP, benchmarked against PPTP.
-- **[Handwritten Digit Classification](https://github.com/JustJay7/Handwritten-Digit-Classification-using-ML)**: KNN, ANN and Random Forest compared on MNIST, with an upload interface showing predictions and confidence scores.
 
 ---
 
 ## Experience
 
+- **Trench Group**: Data Engineer, McGill MMA capstone project (2026)
 - **Perpex**: Software Development Intern (Aug to Nov 2025)
 - **SmartInternz**: Google Cloud Generative AI Intern (Jul to Aug 2025)
 
@@ -44,15 +41,15 @@ AI/ML engineer and startup founder, currently doing a Master of Management Analy
 
 ## Stack
 
-**Languages:** Python, SQL, C#, JavaScript
-**ML / AI:** scikit-learn, pandas, YOLOv8, U-Net, LSTMs, RAG, LLMs
-**App / Web:** Flask, Next.js, Flutter, ASP.NET
-**Agents / Security:** NVIDIA Nemotron, Hermes, SkillEvaluator, OpenShell, Harbor, Docker
-**Data:** SQL Server, MySQL, SQLite, Neo4j
-**Cloud:** Google Cloud, Nebius Token Factory, DigitalOcean
+- **Languages:** Python, SQL, C#, JavaScript
+- **ML / AI:** scikit-learn, pandas, YOLO, U-Net, LSTMs, RAG, LLMs, LangChain, LangGraph
+- **App / Web:** FastAPI, Flask, Next.js, Flutter, ASP.NET
+- **Agents / Security:** NVIDIA Nemotron, Hermes, SkillEvaluator, OpenShell, Harbor, Docker
+- **Data:** IBM Db2, SQL Server, MySQL, SQLite, Neo4j
+- **Cloud:** AWS Bedrock, Google Cloud, Nebius Token Factory, DigitalOcean
 
 ---
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/jaymalhotraa) • [GitHub](https://github.com/JustJay7)
+[LinkedIn](https://www.linkedin.com/in/jay-malhotraa/)
