@@ -42,7 +42,7 @@
   </tr>
   <tr>
     <td><b><a href="https://github.com/JustJay7/KidneyStone-X">KidneyStone&#8209;X</a></b></td>
-    <td>End-to-end diagnostic pipeline for kidney stones on CT scans: EfficientNet classifier, YOLOv11 detection, U-Net segmentation and LLM-generated clinical reports.</td>
+    <td>Kidney stone detection on CT scans: a YOLOv8 detector (mAP@0.5 of 0.965 on validation), U-Net kidney segmentation and occlusion-based explainability. Built as a team of three.</td>
   </tr>
   <tr>
     <td><b><a href="https://github.com/JustJay7/llm-evaluation-pipeline">LLM&nbsp;Evaluation&nbsp;Pipeline</a></b></td>
@@ -75,4 +75,4 @@
   <img src="assets/stack-light.svg" width="100%" alt="Languages: Python, SQL, C#, JavaScript. ML and AI: LangGraph, LangChain, RAG, scikit-learn, YOLO, U-Net. Agents: NVIDIA Nemotron, Hermes, OpenShell, Harbor, Docker. Apps: FastAPI, Flask, Next.js, Flutter, ASP.NET. Data: IBM Db2, SQL Server, MySQL, SQLite, Neo4j. Cloud: AWS Bedrock, Google Cloud, Nebius, DigitalOcean.">
 </picture>
 
-Open to AI/ML engineer, data engineer and data scientist roles. Reach me on [LinkedIn](https://www.linkedin.com/in/jay-malhotraa/).
+Open to AI/ML engineer, data engineer and data scientist roles. See the case studies on my [portfolio site](https://justjay7.github.io), or reach me on [LinkedIn](https://www.linkedin.com/in/jay-malhotraa/).
