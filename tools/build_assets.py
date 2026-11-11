@@ -180,14 +180,14 @@ def hero(theme):
     css += f".k{{animation:a .01s linear {end:.2f}s both,b 1.1s linear {end + 0.01:.2f}s infinite}}"
 
     s = Svg(h, theme, "Jay Malhotra, AI/ML engineer",
-            "I build AI products, and the checks that decide what they are allowed to say and do. "
+            "I build AI products end to end, from the model to the app people use. "
             "Founding engineer at Ayebot. Master of Management Analytics at McGill University, Montreal. "
             "Recent work: AsOf for IBM Db2Hack 2026, SkillGuard for the Nebius x NVIDIA Global AI Hackathon, "
             "Perfect Pair (prize winner, BSRM x ALDO Retail Gen AI Hackathon), Ayebot (in production).", css)
 
     s.text("D", "Jay Malhotra", -4, 84, 100, track=-0.012)
-    s.text("L", "AI/ML engineer. I build AI products, and the checks that", 0, 136, 24.5)
-    s.text("L", "decide what they are allowed to say and do.", 0, 168, 24.5)
+    s.text("L", "AI/ML engineer. I build AI products end to end,", 0, 136, 24.5)
+    s.text("L", "from the model to the app people use.", 0, 168, 24.5)
     s.text("B", "Founding engineer at Ayebot. Master of Management Analytics at McGill University, Montreal.",
            0, 208, 15.5, "muted")
 

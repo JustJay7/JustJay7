@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" width="100%" alt="Jay Malhotra. AI/ML engineer. I build AI products, and the checks that decide what they are allowed to say and do. Founding engineer at Ayebot. Master of Management Analytics at McGill University, Montreal.">
+  <img src="assets/hero-light.svg" width="100%" alt="Jay Malhotra. AI/ML engineer. I build AI products end to end, from the model to the app people use. Founding engineer at Ayebot. Master of Management Analytics at McGill University, Montreal.">
 </picture>
 
 <a href="https://github.com/JustJay7/asof">
